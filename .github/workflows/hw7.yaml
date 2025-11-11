@@ -1,0 +1,13 @@
+name: HW 7 Javier
+on: [push]
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+    - name: First Print
+      run: echo "Impresión 1"
+    - name: Second Print
+      run: echo "Impresión 2"
+    - name: Third Print
+      run: echo "Impresión 3"
+      
